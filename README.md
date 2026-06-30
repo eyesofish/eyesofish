@@ -1,12 +1,12 @@
 # Yang Yu · 余洋
 
-**M.S. Computer Science @ UC Davis** · Backend & Distributed Systems · Incoming SWE Intern @ Microsoft (Suzhou, Jun–Sep 2026)
+**M.S. Computer Science @ UC Davis** · Backend & Distributed Systems · SWE Intern @ Microsoft (Suzhou, Jun–Sep 2026)
 
 `devilsrocbuddhasgildedimage@gmail.com` · Davis, CA
 
 I build small, honest systems end-to-end: distributed consensus, recommendation, and agentic LLM tooling. I prefer reading code over reading slides, and I write down what didn't work next to what did.
 
-中文一句话：在 UC Davis 读 CS 硕士，方向是后端/分布式系统，2026 夏天去 Microsoft（苏州）做 SWE 实习。日常练手围绕共识协议、推荐系统、和 LLM agent，喜欢把一个想法跑通到端到端再写下来。
+中文一句话：在 UC Davis 读 CS 硕士，方向是后端/分布式系统，2026 夏天在 Microsoft（苏州）做 SWE 实习。日常练手围绕共识协议、推荐系统、和 LLM agent，喜欢把一个想法跑通到端到端再写下来。
 
 ---
 
