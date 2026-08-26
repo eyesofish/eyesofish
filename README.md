@@ -1,4 +1,4 @@
-# Yang Yu · 余洋
+# Yang Yu · 俞洋
 
 **M.S. Computer Science @ UC Davis** · Backend & Distributed Systems · SWE Intern @ Microsoft (Suzhou, Jun–Sep 2026)
 
