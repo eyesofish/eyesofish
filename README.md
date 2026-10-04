@@ -1,8 +1,12 @@
 # Yang Yu · 俞洋
 
-**Backend & Distributed Systems · AI Agents & LLM Applications**
+[![Open to Work](https://img.shields.io/badge/Open_to_Work-2027_New_Grad-brightgreen?style=for-the-badge)](mailto:devilsrocbuddhasgildedimage@gmail.com)
 
-M.S. Computer Science @ UC Davis (expected May 2027) · SWE Intern @ Microsoft (Suzhou, Jun–Sep 2026)
+> ### 🟢 Open to Work — 2027 new grad / internship · 2027 届校招
+> **Backend · Distributed Systems · AI Infrastructure & AI Agents** · US & China
+> Graduating May 2027 · [devilsrocbuddhasgildedimage@gmail.com](mailto:devilsrocbuddhasgildedimage@gmail.com)
+
+M.S. Computer Science @ UC Davis · SWE Intern @ Microsoft (Suzhou, Jun–Sep 2026)
 
 `devilsrocbuddhasgildedimage@gmail.com` · [LinkedIn](https://linkedin.com/in/yy030305) · Davis, CA
 
