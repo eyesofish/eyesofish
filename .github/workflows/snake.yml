@@ -17,17 +17,21 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    env:
+      HAS_OWNER_TOKEN: ${{ secrets.CONTRIBUTIONS_READ_TOKEN != '' }}
     steps:
       - name: Generate light and dark animations
+        if: env.HAS_OWNER_TOKEN == 'true'
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          github_token: ${{ secrets.CONTRIBUTIONS_READ_TOKEN || github.token }}
+          github_token: ${{ secrets.CONTRIBUTIONS_READ_TOKEN }}
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=#F4795B&color_dots=#EBEDF0,#FFE0B2,#FFB74D,#FB8C00,#E65100
             dist/github-contribution-grid-snake-dark.svg?color_snake=#F4795B&color_dots=#161B22,#5A3300,#A86A00,#FB8C00,#FFCC80
 
       - name: Publish animations to the output branch
+        if: env.HAS_OWNER_TOKEN == 'true'
         uses: crazy-max/ghaction-github-pages@c05ee637ec73429400a359430db8e5629f3f2564 # v4.0.0
         with:
           target_branch: output
