@@ -1,5 +1,7 @@
 # Hi, I'm Yang / 俞洋
 
+<span title="Clouds drift over a wooden cabin on stepped grass blocks as its windows light up at night.">![Clouds drift over a wooden cabin on stepped grass blocks as its windows light up at night.](assets/block-world.gif)</span>
+
 I'm a CS master's student at UC Davis, graduating in May 2027. I spent summer 2026
 as a software engineering intern at Microsoft in Suzhou.
 
