@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#152722">
+  <meta name="description" content="Yang Yu builds AI agents and backend systems. Explore selected projects and open-source work in an animated block world.">
+  <title>Yang Yu · Block World</title>
+  <link rel="preload" href="./fonts/archivo-black.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./site.css">
+  <script type="module" src="./site.js"></script>
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <canvas id="world" aria-hidden="true"></canvas>
+  <header class="topbar">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="#surface" aria-label="Yang’s world, return to the surface">
+        <span class="block" aria-hidden="true"><i></i></span>Yang<span class="brand-rest">’s world</span>
+      </a>
+      <div class="stops">
+        <a href="#surface" aria-current="location">Surface</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button type="button" id="motion" class="motion" aria-label="Pause animation" hidden>
+        <span class="motion-icon" aria-hidden="true"></span><span class="motion-label">Pause</span>
+      </button>
+    </nav>
+  </header>
+  <main id="content">
+    <section id="surface" class="chapter surface" aria-labelledby="name">
+      <div class="inner">
+        <div class="surface-copy">
+          <p class="eyebrow">AI agents &amp; backend engineering</p>
+          <h1 id="name">Yang Yu<span class="period">.</span></h1>
+          <p class="byline"><span lang="zh-Hans">俞洋</span><span class="rule"></span>UC Davis · M.S. Computer Science</p>
+          <p class="intro">I build AI agents and the systems around them, from keeping search indexes in sync to recovering a session when a tool fails.</p>
+          <div class="actions">
+            <a class="button" href="#projects">Explore projects <b aria-hidden="true">↓</b></a>
+            <a class="plain" href="https://github.com/eyesofish">GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="chapter projects" aria-labelledby="work">
+      <div class="inner"><div class="panel work-panel">
+        <h2 id="work">Selected work<span class="period">.</span></h2>
+        <p class="section-intro">I worked on long-session recovery in GitHub Copilot CLI during my Microsoft internship in Suzhou. My own projects explore search, agent training and distributed systems.</p>
+        <ul class="work-list">
+          <li><a href="https://github.com/eyesofish/software_reco"><strong>Software Reco</strong><p>A multimodal software search agent that keeps keyword and vector indexes in sync and can pause for human confirmation.</p><span class="arrow" aria-hidden="true">↗</span></a></li>
+          <li><a href="https://github.com/eyesofish/ads-agent-post-training-lab"><strong>Ads Agent Post-Training Lab</strong><p>A synthetic ad environment for training agents with LoRA and DPO. The reports include the runs that made results worse.</p><span class="arrow" aria-hidden="true">↗</span></a></li>
+          <li><a href="https://github.com/eyesofish/incubator-resilientdb"><strong>ResilientDB · Raft</strong><p>Leader election, log replication and snapshots in C++, implemented alongside PBFT in my own ResilientDB fork.</p><span class="arrow" aria-hidden="true">↗</span></a></li>
+          <li><a href="https://github.com/eyesofish/news-intent-rec"><strong>NewsIntentRec</strong><p>News ranking on the MIND dataset. LightGBM beat the popularity baseline. Adding ALS didn’t improve Recall@10.</p><span class="arrow" aria-hidden="true">↗</span></a></li>
+        </ul>
+        <p class="also">More work &nbsp; <a href="https://github.com/eyesofish/terminal-image-paste">Terminal Image Paste</a> · <a href="https://github.com/QwenLM/FlashQLA/pull/37">FlashQLA contribution</a></p>
+      </div></div>
+    </section>
+
+    <section id="contact" class="chapter contact" aria-labelledby="hello">
+      <div class="inner"><div class="panel contact-panel">
+        <h2 id="hello">Say hello<span class="period">.</span></h2>
+        <p class="section-intro">I’m graduating in May 2027 and open to new-grad roles in AI applications and backend engineering in the US or China.</p>
+        <p class="chinese" lang="zh-Hans">也欢迎用中文交流。</p>
+        <div class="actions"><a class="button" href="mailto:devilsrocbuddhasgildedimage@gmail.com">Email me <b aria-hidden="true">↗</b></a><a class="plain" href="https://linkedin.com/in/yy030305">LinkedIn <span aria-hidden="true">↗</span></a></div>
+        <a class="back" href="#surface">↑ Back to the surface</a>
+      </div></div>
+    </section>
+  </main>
+</body>
+</html>
